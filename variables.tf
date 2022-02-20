@@ -1,13 +1,13 @@
 variable "ami_id" {
   description = "AMI Id to build instances with."
   type = string
-  default = "ami-0dd555eb7eb3b7c82"
+  default = "ami-0015a39e4b7c0966f"
 }
 
 variable "instance_type" {
   description = "Type of instance to provision."
   type = string
-  default = "t2.micro"
+  default = "t2.medium"
 }
 
 variable "key_pair_name" {
