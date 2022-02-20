@@ -48,3 +48,4 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
 # 3. Start Kubernetes Cluster
 sudo apt install conntrack
+sudo minikube start --vm-driver=none
