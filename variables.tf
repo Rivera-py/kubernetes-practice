@@ -15,3 +15,9 @@ variable "key_pair_name" {
   type = string
   default = "k8s_pair"
 }
+
+variable "service_port" {
+  description = "Port number of a service to expose publicly."
+  type = number
+  default = 8080
+}
